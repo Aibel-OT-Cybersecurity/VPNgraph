@@ -81,6 +81,37 @@ RETURN
     anchor.name AS CentralHostname
 ```
 
+## FortiGate USB Bootstrap (Day-Zero Provisioning)
+
+Before a remote FortiGate can participate in the VPN mesh managed by this project, it needs basic network connectivity.  The file **`fgt-bootstrap.conf`** is a ready-to-use USB bootstrap configuration that brings a factory-reset FortiGate online so it is reachable via the **web GUI (HTTPS)** and **SSH**.
+
+### What it does
+
+1. Sets hostname, timezone and DNS.
+2. Frees `internal3`–`internal5` from the default hardware switch so they can be used as independent routed interfaces.
+3. Assigns a static IP to a **management interface** (`internal5`) with HTTPS, SSH and ping enabled.
+4. Optionally configures a secondary OT interface (`internal3`).
+5. Starts a DHCP server on the management interface so a laptop plugged in gets an address automatically.
+6. Enables syslog forwarding and SNMP.
+7. Locks down the `admin` account to trusted source IPs.
+8. Disables USB auto-install after first boot to prevent re-application on subsequent reboots.
+
+### How to use
+
+1. Copy `fgt-bootstrap.conf` and rename it to **`fgt_system.conf`** (the filename the FortiGate looks for on USB).
+2. Edit every value marked with `<<CHANGE>>` to match your site (IPs, hostname, DNS, trusted hosts, etc.).
+3. Save the file to a **FAT32-formatted** USB drive.
+4. Plug the USB drive into the FortiGate and power it on.
+5. The FortiGate will auto-apply the config.  Once booted, connect your laptop to the management port (`internal5`) and browse to `https://<management-IP>` or SSH to the same address.
+
+### File inventory
+
+- **`fgt-bootstrap.conf`** – Consolidated day-zero bootstrap (recommended starting point).
+- `fgt_system.conf` – Earlier iteration of the bootstrap config.
+- `interface-setup-fg.conf` – Earlier iteration with SNMP additions.
+- `template-VPN-fg.conf` – IPsec VPN template (Phase 1/2, firewall policies, DDNS).
+- `FG-Baseline.yaml` – Ansible playbook (not currently in use).
+
 ## Next Steps
 - Design the frontend interface.
 - Implement the backend service to handle Neo4j interactions.
