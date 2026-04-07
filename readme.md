@@ -1,6 +1,9 @@
 # Neo4j Web Interface for VPN Configuration
 
-This document outlines the requirements and functionality for a web interface to manage VPN configurations using Neo4j as the backend database.
+This is a working idea for creating and maintaining VPN-tunnel configs for Remote Access SecureSite (RASS). There's a React web frontend and an Express API backend interface to manage VPN configurations using Neo4j as the backend database.
+
+Looking like this:
+![VPNgraph Architecture](vpngraph1.png)
 
 ## Features
 
