@@ -1,0 +1,77 @@
+---
+- name: Bootstrap FortiGate Configuration
+  hosts: fortigates
+  connection: local  # Uses your Mac's local Python, no special socket needed
+  gather_facts: false
+
+  vars:
+    # We use these for the URI module
+    fgt_url: "https://192.168.10.99"
+    fgt_user: "admin"
+    fgt_pass: "YOUR_PASSWORD_HERE"
+
+  tasks:
+    # STEP 1: Use a direct API call to redefine the switch. 
+    # This removes internal5 by simply not mentioning it in the list.
+    - name: Remove internal5 from Hardware Switch via REST API
+      ansible.builtin.uri:
+        url: "{{ fgt_url }}/api/v2/cmdb/system/snmp/community" # Note: Use the switch path below
+        url: "{{ fgt_url }}/api/v2/cmdb/system/hardware-switch/internal"
+        method: PUT
+        user: "{{ fgt_user }}"
+        password: "{{ fgt_pass }}"
+        force_basic_auth: yes
+        validate_certs: no
+        body_format: json
+        body:
+          name: "internal"
+          # Only include the ports you want to KEEP in the switch
+          slot:
+            - name: "internal1"
+            - name: "internal2"
+            - name: "internal3"
+            - name: "internal4"
+        status_code: 200
+
+    # STEP 2: Now that internal5 is free, configure it
+    - name: Configure Interface internal5
+      fortinet.fortios.fortios_system_interface:
+        vdom: "root"
+        # Since we are using connection: local, we must pass credentials here
+        ansible_host: "192.168.1.99"
+        ansible_user: "admin"
+        ansible_password: "{{ fgt_pass }}"
+        ansible_httpapi_use_ssl: yes
+        ansible_httpapi_validate_certs: no
+        state: "present"
+        system_interface:
+          name: "internal5"
+          mode: "static"
+          ip: "10.20.30.40 255.255.255.0"
+          # Use a proper list for allowaccess
+          allowaccess:
+            - ping
+            - https
+            - ssh
+
+    # STEP 3: Configure DHCP
+    - name: Configure DHCP Server
+      fortinet.fortios.fortios_system_dhcp_server:
+        vdom: "root"
+        ansible_host: "192.168.1.99"
+        ansible_user: "admin"
+        ansible_password: "{{ fgt_pass }}"
+        ansible_httpapi_use_ssl: yes
+        ansible_httpapi_validate_certs: no
+        state: "present"
+        system_dhcp_server:
+          id: 1
+          interface: "internal5"
+          status: "enable"
+          netmask: "255.255.255.0"
+          ip_range:
+            - id: 1
+              start_ip: "10.20.30.41"
+              end_ip: "10.20.30.51"
+
+

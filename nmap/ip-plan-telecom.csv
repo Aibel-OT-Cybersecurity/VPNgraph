@@ -1,0 +1,129 @@
+﻿LINK,System,VLAN_ID,VLAN_Name,Subnet_Description,Location,Subnet_Base,Mask,CIDR,Default_Gateway,TAG,Host_name,IP,HostMin,HostMax,Broadcast,Comments
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,,,,10.169.5.0,10.169.5.1,10.169.5.126,10.169.5.127,Network ID
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,NA,#HOW03=Z01YAL11UH004-KF001,Z01YAL11UH004-KF001-SW,10.169.5.1,10.169.5.1,10.169.5.126,10.169.5.127,Core Switch A VLAN Interface
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,NA,#HOW03=Z01YAL11UH005-KF001,Z01YAL11UH005-KF001-SW,10.169.5.2,10.169.5.1,10.169.5.126,10.169.5.127,Core Switch B VLAN Interface
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,NA,NA,,10.169.5.3,10.169.5.1,10.169.5.126,10.169.5.127,HSRP Virtual IP
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,NA,NA,,10.169.5.4,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,NA,NA,,10.169.5.5,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF8,,10.169.5.6,10.169.5.1,10.169.5.126,10.169.5.127,System Controller-1A
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF9,,10.169.5.7,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-1A
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF10,,10.169.5.8,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-2A
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF11,,10.169.5.9,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-3A
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF14,,10.169.5.10,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-4A (Hot Stand-By)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF6,,10.169.5.11,10.169.5.1,10.169.5.126,10.169.5.127,PAGA Ethernet Access Switch-1A
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF13,,10.169.5.12,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-1A (Mutable Function)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF14,,10.169.5.13,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-2A (Flashing Beacon)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-KF15,,10.169.5.14,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-3A (Interfaces)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH001-UH1-XF7,,10.169.5.15,10.169.5.1,10.169.5.126,10.169.5.127,Cabinet Access Panel (PAGA-A)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,NA,,10.169.5.16,10.169.5.1,10.169.5.126,10.169.5.127,IO Kit for Interface (PAGA-A)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF8,,10.169.5.17,10.169.5.1,10.169.5.126,10.169.5.127,System Controller-1B
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF9,,10.169.5.18,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-1B
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF10,,10.169.5.19,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-2B
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF11,,10.169.5.20,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-3B
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF12,,10.169.5.21,10.169.5.1,10.169.5.126,10.169.5.127,Amplifier-4B (Hot Stand-By)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF6,,10.169.5.22,10.169.5.1,10.169.5.126,10.169.5.127,PAGA Ethernet Access Switch-1B
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF13,,10.169.5.23,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-1B (Mutable Function)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF14,,10.169.5.24,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-2B (Flashing Beacon)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF15,,10.169.5.25,10.169.5.1,10.169.5.126,10.169.5.127,IO Module-3B (Interfaces)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01UH002-UH1-KF7,,10.169.5.26,10.169.5.1,10.169.5.126,10.169.5.127,Cabinet Access Panel (PAGA-B)
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01KF001-KF3,,10.169.5.27,10.169.5.1,10.169.5.126,10.169.5.127,Desktop Access Panel
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE01BX001-BX2,,10.169.5.28,10.169.5.1,10.169.5.126,10.169.5.127,Secondary Muster Access Panel
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,NA,,10.169.5.29,10.169.5.1,10.169.5.126,10.169.5.127,Service Laptop for PAGA System
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03UH001-UH001-KF009,,10.169.5.30,10.169.5.1,10.169.5.126,10.169.5.127,Bird Movement Manager
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03UH001-UH001-KF010,,10.169.5.31,10.169.5.1,10.169.5.126,10.169.5.127,I/O Unit
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03UH001-UH001-KF007,,10.169.5.32,10.169.5.1,10.169.5.126,10.169.5.127,PoE Ethernet Switch
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03BX001-BX001,,10.169.5.33,10.169.5.1,10.169.5.126,10.169.5.127,BDS Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03BX001-BX002,,10.169.5.34,10.169.5.1,10.169.5.126,10.169.5.127,BDS Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03BX001-BX003,,10.169.5.35,10.169.5.1,10.169.5.126,10.169.5.127,BDS Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSE03BX001-BX004,,10.169.5.36,10.169.5.1,10.169.5.126,10.169.5.127,BDS Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX029,,10.169.5.37,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor Fixed Bullet Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX030,,10.169.5.38,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor Fixed Bullet Camera
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX001,,10.169.5.39,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX001,,10.169.5.40,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX002,,10.169.5.41,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX003,,10.169.5.42,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX004,,10.169.5.43,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX005,,10.169.5.44,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX002,,10.169.5.45,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX006,,10.169.5.46,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX003,,10.169.5.47,10.169.5.1,10.169.5.126,10.169.5.127,Indoor fixed Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX004,,10.169.5.48,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX005,,10.169.5.49,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX001,,10.169.5.50,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX006,,10.169.5.51,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX002,,10.169.5.52,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG121-BX007,,10.169.5.53,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX012,,10.169.5.54,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX003,,10.169.5.55,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX004,,10.169.5.56,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX016,,10.169.5.57,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX017,,10.169.5.58,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX013,,10.169.5.59,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX014,,10.169.5.60,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX015,,10.169.5.61,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX005,,10.169.5.62,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX006,,10.169.5.63,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG131-BX007,,10.169.5.64,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX007,,10.169.5.65,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX008,,10.169.5.66,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX009,,10.169.5.67,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX010,,10.169.5.68,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG117-BX011,,10.169.5.69,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX001,,10.169.5.70,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX002,,10.169.5.71,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX003,,10.169.5.72,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX004,,10.169.5.73,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX005,,10.169.5.74,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX006,,10.169.5.75,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX007,,10.169.5.76,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX008,,10.169.5.77,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX009,,10.169.5.78,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX010,,10.169.5.79,10.169.5.1,10.169.5.126,10.169.5.127,Indoor PTZ Dome
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX011,,10.169.5.80,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX012,,10.169.5.81,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX013,,10.169.5.82,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX014,,10.169.5.83,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG312-BX015,,10.169.5.84,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX001,,10.169.5.85,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX002,,10.169.5.86,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX003,,10.169.5.87,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX004,,10.169.5.88,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX005,,10.169.5.89,10.169.5.1,10.169.5.126,10.169.5.127,Outdoor PTZ cameras
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,=Z01XSB01WG515-BX006,,10.169.5.90,10.169.5.1,10.169.5.126,10.169.5.127,CCTV Workstation
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.91,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.92,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.93,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.94,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.95,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.96,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.97,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.98,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.99,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.100,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,CS-TESTKIT-PC-tmp,,10.169.5.101,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.102,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.103,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.104,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.105,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.106,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.107,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.108,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.109,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.110,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.111,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.112,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.113,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.114,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.115,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.116,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.117,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.118,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.119,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.120,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.121,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.122,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.123,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.124,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.125,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.126,10.169.5.1,10.169.5.126,10.169.5.127,Spare
+A,Telecom & Utility System,410,OSS_Utility,OSS Utility ,Offshore,10.169.5.0,255.255.255.128,25,10.169.5.3,,,10.169.5.127,10.169.5.1,10.169.5.126,10.169.5.127,Broadcast address
