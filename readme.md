@@ -4,7 +4,8 @@ This is a working idea for creating and maintaining VPN-tunnel configs for Remot
 
 Looking like this:
 ![VPNgraph Architecture](vpngraph1.png)
-
+Clicking the node will reveal the setup conf needed for the firewalls:
+![VPNgraph Architecture](vpngraph2.png)
 ## Features
 
 ### 1. Create a New VPN Site
