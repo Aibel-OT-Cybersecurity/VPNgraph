@@ -146,8 +146,8 @@ Ensure you have the following installed:
 1. **Clone the Repository**  
     Clone the project repository to your local machine:
     ```bash
-    git clone https://github.com/your-repo/neo4j-vpn-config.git
-    cd neo4j-vpn-config
+    git clone https://github.com/Aibel-OT-Cybersecurity/VPNgraph.git
+    cd VPNgraph
     ```
     1. **Initialize the Project**  
         If this is a new project, initialize it with `npm init`:
