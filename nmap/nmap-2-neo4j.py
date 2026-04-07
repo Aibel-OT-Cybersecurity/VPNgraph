@@ -3,7 +3,7 @@ from neo4j import GraphDatabase
 
 # --- CONFIGURATION ---
 URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "SurreHue42!")  # Update this
+AUTH = ("neo4j", "SurreHue12#")  # Update this
 XML_FILE = "telecom-Utility-net-Link1 copy.xml"
 DB_NAME = "nmap-analyzer"                   # <--- YOUR SPECIFIC DATABASE NAME
 # ---------------------

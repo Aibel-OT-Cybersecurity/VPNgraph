@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Build output
+frontend/build/
+
+# OS files
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# Ansible
+ansible_venv/

@@ -1,5 +1,5 @@
 {
-  "name": "create-vpn",
+  "name": "vpngraph-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

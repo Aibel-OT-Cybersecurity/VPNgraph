@@ -10,7 +10,7 @@ const port = 4000;
 // --- CONFIGURATION ---
 const URI = 'bolt://localhost:7687';
 const USER = 'neo4j';
-const PASSWORD = 'SurreHue42!'; 
+const PASSWORD = 'SurreHue12#'; 
 const DATABASE_NAME = 'secsi-vpn'; 
 
 // 1. Initialize Neo4j Driver

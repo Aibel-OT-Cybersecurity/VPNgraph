@@ -211,6 +211,8 @@ Ensure you have the following installed:
 
     The React app will be available at `http://localhost:3000` by default. Ensure the backend server is running to enable API communication.
 
+![VPNgraph Architecture](vpngraph-frontend.png)
+
 You're now ready to manage VPN configurations using the Node.js project!
 
 ### Frontend (React)
