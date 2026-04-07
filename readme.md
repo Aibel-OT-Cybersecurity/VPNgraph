@@ -96,19 +96,24 @@ Before a remote FortiGate can participate in the VPN mesh managed by this projec
 7. Locks down the `admin` account to trusted source IPs.
 8. Disables USB auto-install after first boot to prevent re-application on subsequent reboots.
 
+### Important: FortiOS config file quirks
+
+- **No comments in production configs.** FortiOS does not reliably parse `#` comments in the config body.  The only `#` lines it accepts are the metadata header (`#config-version=…`).
+- **First line must be the `#config-version=` header.**  Without it, some firmware versions will silently ignore the file.  Get the correct string for your model/firmware by running `show full-configuration` on a working unit and copying the first two lines.
+
 ### How to use
 
-1. Copy `fgt-bootstrap.conf` and rename it to **`fgt_system.conf`** (the filename the FortiGate looks for on USB).
-2. Edit every value marked with `<<CHANGE>>` to match your site (IPs, hostname, DNS, trusted hosts, etc.).
-3. Save the file to a **FAT32-formatted** USB drive.
+1. Open `fgt-bootstrap.conf` (the **commented reference**) and decide which values to change for your site — every customisable value is marked `<<CHANGE>>`.
+2. Apply those changes to **`fgt_system.conf`** (the **production file**, comment-free).  Update the `#config-version=` header to match your FortiGate model and firmware.
+3. Copy `fgt_system.conf` to a **FAT32-formatted** USB drive.
 4. Plug the USB drive into the FortiGate and power it on.
 5. The FortiGate will auto-apply the config.  Once booted, connect your laptop to the management port (`internal5`) and browse to `https://<management-IP>` or SSH to the same address.
 
 ### File inventory
 
-- **`fgt-bootstrap.conf`** – Consolidated day-zero bootstrap (recommended starting point).
-- `fgt_system.conf` – Earlier iteration of the bootstrap config.
-- `interface-setup-fg.conf` – Earlier iteration with SNMP additions.
+- **`fgt-bootstrap.conf`** – Annotated reference with `<<CHANGE>>` markers (do **not** put this on the USB — comments will break parsing).
+- **`fgt_system.conf`** – Production-ready, comment-free config for USB auto-install.
+- `interface-setup-fg.conf` – Earlier iteration (kept for reference).
 - `template-VPN-fg.conf` – IPsec VPN template (Phase 1/2, firewall policies, DDNS).
 - `FG-Baseline.yaml` – Ansible playbook (not currently in use).
 
